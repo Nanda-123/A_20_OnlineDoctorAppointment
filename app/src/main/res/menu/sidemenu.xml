@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_menu"
+        android:icon="@drawable/ic_baseline_house_24"
+        android:title="Home"/>
+
+        <item android:id="@+id/contact_menu"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="Contact Us"/>
+
+        <item android:id="@+id/help_menu"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Help"/>
+
+        <item android:id="@+id/Health_menu"
+            android:icon="@drawable/ic_baseline_house_24"
+            android:title="Health Q and A"/>
+
+        <item android:id="@+id/ChangePwd_menu"
+            android:icon="@drawable/ic_baseline_flip_camera_android_24"
+            android:title="Change Password"/>
+
+        <item android:id="@+id/logout_menu"
+            android:icon="@drawable/ic_baseline_arrow_circle_up_24"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>

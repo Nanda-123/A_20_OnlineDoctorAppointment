@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:background="#3F51B5"
+                            android:paddingTop="10sp"
+                            android:text="Contact Us"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine"
+                            android:layout_width="match_parent"
+                            android:layout_height="189dp"
+                            android:layout_marginTop="10sp"
+                            android:editable="false"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:inputType="textMultiLine"
+                            android:text="Name :Nanda Indoor  \nUSN:2SD18CS061\n Ph. Number: 7829588147\nEmail ID:nandaindoor2000@gmail.com\n"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="Deprecated,RtlCompat" />
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine2"
+                            android:layout_width="match_parent"
+                            android:layout_height="189dp"
+                            android:layout_marginTop="0sp"
+                            android:editable="false"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:inputType="textMultiLine"
+                            android:text="Name :Veena Katakol \nUSN:2SD18CS121\n Ph. Number: 9449178212\nEmail ID:veenakatakol@gmail.com"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="Deprecated,RtlCompat" />
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine8"
+                            android:layout_width="match_parent"
+                            android:layout_height="189sp"
+                            android:editable="false"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:inputType="textMultiLine"
+                            android:text="Name :Yashoda Talawar  \nUSN:2SD18CS126\n Ph. Number: 9620009713\nEmail ID:talawaryashoda@gmail.com"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="Deprecated,RtlCompat" />
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine4"
+                            android:layout_width="match_parent"
+                            android:layout_height="189dp"
+                            android:layout_marginTop="0sp"
+                            android:editable="false"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:inputType="textMultiLine"
+                            android:text="Name :Vaishnavi Lokhande \nUSN:2SD19CS411\n Ph. Number: 7829797642\nEmail ID:vaishnavilakhonde@gmail.com"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="Deprecated,RtlCompat" />
+
+                </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>
